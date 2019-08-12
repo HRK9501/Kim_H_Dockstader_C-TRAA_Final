@@ -14,7 +14,7 @@ master
 initial folders set up
 ```
 
-dev.hrk.
+dev.hrk.traaFinal
 ```
 assets folder, HTML, CSS, JavsScript files
 ```
