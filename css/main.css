@@ -1,0 +1,1010 @@
+
+.hidden
+{
+	display: none;
+}
+
+img, embed, object, video {max-width: 100%; }
+
+
+html {
+  box-sizing: border-box; 
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+
+img {
+  -ms-interpolation-mode: bicubic; 
+}
+
+
+body
+{
+	font-family: 'Nanum Gothic', Helvetica, Arial, sans-serif;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+
+a 
+{ 
+  color:#000; 
+  text-decoration: none;  
+  transition:all .1s linear 0s;
+}
+
+h2, h3, p
+{
+	font-family: 'Nanum Gothic', Helvetica, Arial, sans-serif;
+  color: #424242
+}
+
+.header-container {margin: 0px auto; border-bottom: 0.7px solid #777777;}
+
+.footer-container {
+  margin: 0px auto;
+}
+.container {
+  margin: 0px auto;
+  max-width: 1200px;
+  padding: 50px 15px; 
+}
+
+.body-container {
+  padding: 25px; 
+  max-width: 1200px; 
+  margin: 0 auto;
+}
+
+
+
+#mainHeader {
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+#mainNav {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#mainNav button {
+  margin-left: auto;
+}
+
+
+
+#burgerCon {
+  display: none;
+  margin-top: 20px;
+}
+
+#burgerCon.slideToggle {display: block;}
+
+#mainNav button {
+  background: url(../images/burger.svg) center no-repeat;
+  border: 0;
+  width: 38px;
+  height: 38px;
+  transition: all 400ms ease;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+#mainNav button.expanded {
+
+  -webkit-transition: rotate(90deg);
+  -ms-transform: rotate(90deg);
+
+  transform: rotate(90deg);
+}
+
+#mainNav li {border-bottom: 0.7px solid #9abd4b;}
+
+#mainNav li a {
+  display: block;
+  color: #424242;
+  padding: 12px 0;
+  text-align: center;
+}
+
+
+#traaLogo {
+  display: block;
+  max-width: 140px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+/* Banner */
+
+#home-banner {
+  margin-bottom: 30px;
+  height: 600px;
+  background-image: url(../images/banner-home-small.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#about-banner {
+  margin-bottom: 45px;
+  height: 600px;
+  background-image: url(../images/banner-about-small.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#gallery-banner {
+  margin-bottom: 45px;
+  height: 600px;
+  background-image: url(../images/banner-gallery-small.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#contact-banner {
+  margin-bottom: 45px;
+  height: 600px;
+  background-image: url(../images/banner-contact-small.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#banner-text-con {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0 20px;
+  height: 500px;
+  max-width: 970px;
+}
+
+.banner-text { padding-top:30px; }
+
+.banner-text h2 {
+  font-size: 2.813em;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.banner-text h3 {
+  font-size: 1.125em;
+  font-weight: 800;
+  letter-spacing: 1px;
+  line-height: 22px;
+  margin: 40px 0 20px 0; 
+  color: white;
+}
+
+.banner-text p {
+  font-size: 	0.938em;
+  line-height: 1.25em;
+  margin: 0 0 15px 0;
+  color: white;
+}
+
+
+/* footer */
+
+.footer {
+  width: 100%;
+  display: block;
+  text-align: center;
+  background-color: #eaeaea;
+}
+
+.footer-img {
+  padding: 30px 0;
+}
+
+.footerlogo {
+  width: 100px;
+}
+
+.footer-text {
+  font-size: 0.875em;
+  margin: 0 10px;
+}
+
+.footer-traa {
+  margin: 0 0 5px 0;
+  font-size: 0.938em;
+}
+
+.footer-address {font-size: 0.938em; line-height: 17px;}
+
+.footer-right {
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.mailimg {
+  width: 50px;
+}
+
+.facebookimg {
+  width: 50px;
+}
+
+.copyright {
+  display: none
+}
+
+
+/* Home */
+
+.homemain-container {
+  display: block;
+}
+
+.homemain-container2 {
+  display: block;
+  margin: auto auto 50px auto;
+}
+
+.homemain {
+  width: 100%;
+  margin-bottom: 40px; 
+}
+
+.homemain-img {
+  width: 100%;
+}
+
+.homemain-text {
+  width: 100%;
+}
+
+.homemain-text h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
+
+.homemain-text h3 {
+  font-size: 1.125em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0 0 20px 0; 
+}
+
+.homemain-text p {
+  font-size: 1em;
+  line-height: 1.25em;
+  margin: 0 0 15px 0;
+}
+
+.homemainbutton {
+  text-align: center;
+  width: 100%;
+}
+
+.contact-button {
+  background-color: #9abd4b;
+  color: white;
+  font-size: 1.125em;
+  padding: 10px 12px;
+  text-decoration: none;
+  border-radius: 50px; 
+  border: none;
+  cursor: pointer;
+}
+
+.click-button {
+  background-color: #9abd4b;
+  color: white;
+  font-size: 1.125em;
+  padding: 10px 12px;
+  text-decoration: none;
+  border-radius: 50px; 
+  border: none;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  color: #9abd4b;
+  background-color: #424242;
+}
+
+.click-button:hover {
+  color: #9abd4b;
+  background-color: #424242;
+}
+
+.first-button {
+  margin: 0 0 10px 0;
+}
+
+/* partners */
+
+.partners-container {
+  margin-bottom: 70px;
+}
+
+.partners-container h2 {
+  font-size: 2.5em;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.TRAA-partners {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.partners {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.partners p {
+  font-size: 1em;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+/* people-list */
+
+.people-container {
+  width: 100%
+}
+
+.people-container h2 {
+  font-size: 2.5em;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.executives {
+  display: block;
+  margin-bottom: 70px;
+}
+
+.executives-list {
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.position {
+  font-size: 1.125em;
+  margin: 0 0 10px 0;
+}
+
+.name {
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.Volunteer {
+  display: block;
+}
+
+.Volunteer-list {
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+
+
+
+
+/* About */
+.about-us {margin-bottom: 70px;}
+
+.about-us-text h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.about-us-text h3 {
+  font-size: 1.563em;
+  font-weight: 700;
+  line-height: 27px;
+  margin: 30px 0 50px 0;
+}
+
+.traa-works {
+  text-align: center;
+}
+
+
+.icon {margin-bottom: 30px;}
+.icon img {margin-bottom: 15px; max-width: 100px;}
+.icon p {
+  font-size: 1.063em; 
+  line-height: 22px;
+}
+
+/* More About */
+.more-about {margin-bottom: 70px;}
+.more-about-text {margin-top:40px;}
+.more-about-text h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.more-about-text p {
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
+.project-title h2 {font-size: 2.5em; font-weight: 700;}
+.project-title h3 {
+  font-size: 1.125em; 
+  font-weight: 700; 
+  margin: 40px 0 20px 0;
+}
+.project-title p {font-weight: 700; line-height: 20px;}
+
+.project-box-container {margin-top: 40px;}
+
+.project {
+  width: 100%;
+  margin-bottom: 40px; 
+}
+
+.project-img {
+  width: 100%;
+}
+
+.project-text {
+  width: 100%;
+}
+
+.project-text h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
+
+.project-text h3 {
+  font-size: 1.125em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0 0 20px 0; 
+}
+
+.project-text p {
+  font-size: 1em;
+  line-height: 1.25em;
+  margin: 0 0 15px 0;
+}
+
+.readmorebutton {
+  text-align: center;
+  width: 100%;
+}
+
+.read-more-button {
+  background-color: #9abd4b;
+  color: white;
+  font-size: 1.125em;
+  padding: 10px 12px;
+  text-decoration: none;
+  border-radius: 50px; 
+  border: none;
+  cursor: pointer;
+}
+
+.read-more-button:hover {
+  color: #9abd4b;
+  background-color: #424242;
+}
+
+.archives {margin-bottom: 40px;}
+.archives-title {margin: 70px 0 40px 0;}
+.archives-title h2 {font-size: 2.5em; font-weight: 700;}
+
+.archives-img {
+  width: 100%;
+}
+
+.archives-text {
+  width: 100%;
+}
+
+.archives-text h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 10px 0 15px 0;
+}
+
+/* Contact */
+
+.mail-container {margin-bottom: 70px;}
+.mail-container h2 {
+  font-size: 2.5em; 
+  font-weight: 700; 
+  margin-bottom: 40px;
+}
+
+.mail-location {font-size: 1.063em; line-height: 22px; margin-bottom: 25px;}
+.mail-note {font-size: 1.063em; line-height: 22px;}
+
+.meeting-container {margin-bottom: 50px;}
+.meeting-container h2 {font-size: 2.5em; font-weight: 700; margin-bottom: 40px;}
+.meeting-container p {
+  margin-bottom: 25px;
+  font-size: 1.063em;
+  line-height: 22px;
+}
+
+.contact-info-container {margin-bottom: 70px;}
+
+.form-title {margin-bottom: 25px;}
+
+.form-title h2 {font-size: 1.5em;}
+
+.submit {
+  background-color: #9abd4b;
+  color: white;
+  font-size: 1.125em;
+  padding: 10px 12px;
+  text-decoration: none;
+  border-radius: 50px; 
+  border: none;
+  cursor: pointer;
+}
+
+.submit:hover {
+  color: #9abd4b;
+  background-color: #424242;
+}
+
+input[type=text] {
+  width: 100%;
+  height: 40px;
+  background-color: #dadada;
+  font-size: 20px;
+  color: #424242;
+  border: none;
+  margin: 19px 0 0 0;
+  padding: 0;
+}
+
+#text2 {
+  width: 100%;
+  height: 100px;
+  background-color: #dadada;
+  font-size: 20px;
+  color: #424242;
+  border: none;
+  margin: 19px 0 0 0;
+  padding: 0;
+}
+
+.map-container {margin-top: 50px;}
+.map-text p {font-size: 1.063em; line-height: 22px; margin-bottom: 20px;}
+
+iframe {
+  border: 0.5px solid #424242;
+  width: 100%;
+}
+
+
+
+
+/* Gallery */
+.videoMainCon {padding-top:25px;}
+
+.video-content {
+  width:100%;
+  text-align: center;
+  border: solid 0.5px #424242;
+}
+
+.videoMainCon h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.videoMainCon h3 {
+  font-size: 1.25em;
+  font-weight: 700;
+  margin: 20px 0 40px 0;
+}
+
+/*gallery*/
+.mainCon {
+	text-align: center;
+  margin-bottom: 70px;
+}
+
+.goodsText {margin: 70px 0 40px 0;}
+.goodsText h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.goodsText h3 {
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-top: 20px
+}
+
+#imageContainer {
+	width:600px;
+	height:400px;
+	background-color:grey;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+#goodsImages { position:relative; width:2400px; transition: all .5s; }
+#goodsImages img { float:left; }
+
+#goodsTitle {
+	color: #424242; 
+	font-size: 1.5em;
+}
+
+.goods-info {
+	color: #424242; 
+	width: 75%; 
+	font-size: 1.125em; 
+	line-height: 1.5;
+	margin: 10px auto 0 auto;
+}
+
+#bottomNav { margin:30px 0; }
+
+#navList li {
+	display:inline;
+	list-style-type:none;
+	padding:0px 10px;
+	cursor:pointer;
+}
+
+
+
+.imgContainer {
+	width:150px;
+	height:100px;
+	display:inline-block;
+	overflow:hidden;
+	background-image:url(../images/goodsButton.png);
+	background-repeat:no-repeat;
+	transition:transform .3s;
+	-webkit-transition:-webkit-transform .3s;
+	-moz-transition:-moz-transform .3s;
+}
+
+.sp1 { background-position:0px -100px; }
+.sp1:hover { background-position:0px 0px; }
+
+.sp2 { background-position:-150px -100px; }
+.sp2:hover { background-position:-150px 0px; }
+
+.sp3 { background-position:-300px -100px; }
+.sp3:hover { background-position:-300px 0px; }
+
+.sp4 { background-position:-450px -100px; }
+.sp4:hover { background-position:-450px 0px; }
+
+
+
+
+/*media query for 401px wide*/
+@media screen and (min-width: 25.063em) {
+
+  #banner-text-con h3 {letter-spacing: 0.25px; }
+
+}
+
+
+/*media quert for 620p*/
+@media screen and (min-width: 38.75em){
+
+  #banner-text-con h3 {letter-spacing: 0.25px; }
+
+  #banner-text-con p {width: 90%;} 
+
+}
+
+/*media query for 640p*/
+@media screen and (min-width: 40em) {
+
+  /* banner */
+
+  #home-banner {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/banner-home-large.png);
+  }
+
+  #about-banner {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/banner-about-large.png);  
+  }
+
+  #gallery-banner {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/banner-gallery-large.png);  
+  }
+
+  #contact-banner {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/banner-contact-large.png);  
+  }
+
+  /* footer */
+
+  .footer {display: flex; justify-content: space-around;}
+  .footer-left {display: flex;}
+  .footer-img {margin: auto 0;}
+  .footer-text { margin: auto 0 auto 25px; text-align: left;}
+  .footer-address {margin: 5px 0 15px 0;}
+  .footer-right {
+    display: flex; 
+    margin: auto 0;
+    padding:0;
+  }
+  .copyright {display: flex; font-size: 0.750em;}
+  .facebookimg {margin-left: 15px;}  
+
+  /* home-body */
+  
+  .body-container {padding: 0 50px;}
+  .homemain:last-child{margin-left: 25px;}
+  
+  .homemain-container {
+      margin-top: 70px;
+      display: flex;
+  }
+  
+  .homemain-container2 {
+      margin: 70px 0;
+      display: flex;
+  }
+  
+  .homemain-img {margin: 0;}
+  
+  .homemain-text {
+      width: 100%;
+      height: 435px;
+      border-bottom: #525252 1px solid;
+  }
+  
+  .homemain-text h2 {
+      font-size: 	1.438em;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin: 20px 0 40px 0;
+  }
+  
+  .homemain-text h3 {
+      font-size: 0.938em;
+      font-weight: 700;
+      margin: 0 0 20px 0;
+  }
+  
+  .homemain-text p {
+      margin: 0 0 15px 0;
+      font-size: 0.750em;
+      line-height: 20px;
+  }
+  
+  .homemainbutton {
+      width: 100%;
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+  }
+  
+  .homemain button {margin: 25px 0 0 0;}
+  
+  .contact-button {
+      background-color: #9abd4b;
+      color: white;
+      font-size: 15px;
+      padding: 13px 15px;
+      text-decoration: none;
+  }
+  
+  .click-button {
+      background-color: #9abd4b;
+      color: white;
+      font-size: 15px;
+      padding: 13px 15px;
+  } 
+
+  .icon { max-width: 33%; margin-right: 8px; }
+  .icon:last-child {margin:0}
+
+  /* About-body*/
+  .traa-works {display: flex;}
+
+  .moreAboutImgCon {display: flex;}
+  .more-about-img {width: 100%;}
+  .more-about-img:last-child {margin-left: 25px;}
+
+  .project-text {height: 270px;}
+
+  .project-box-container {display: flex;}
+  .project:last-child {margin-left: 25px;}
+
+  .project-archives-container {display: flex;}
+  .archives:last-child {margin-left: 25px;}
+
+ 
+ /* contact */
+ .contact-info-container {display: flex;}
+
+ .form {width: 50%}
+
+ input[type=text] {
+  width: 100%;
+  height: 40px;
+  background-color: #dadada;
+  font-size: 20px;
+  color: #424242;
+  border: none;
+  margin: 19px 0 0 0;
+  padding: 0;
+}
+
+#text2 {
+  width: 100%;
+  height: 100px;
+  background-color: #dadada;
+  font-size: 20px;
+  color: #424242;
+  border: none;
+  margin: 19px 0 0 0;
+  padding: 0;
+}
+
+.map-container {width: 50%; margin: 0 0 0 20px;}
+
+iframe {height: 265px;}
+
+
+}
+
+
+/*780px*/
+@media screen and (min-width: 48.750em) {
+
+.footer-traa {font-size: 1em;}
+.footer-address {font-size: 1em;}
+
+.TRAA-partners {display: flex;}
+
+.partners p {font-size: 0.625em;}
+
+.partners {padding-right: 10px; margin: 0;}
+
+.partners:last-child {padding-right: 0;}
+
+.executives {
+  display: flex;
+  justify-content: space-between;
+}
+
+.executives-list {margin:0;}
+
+.Volunteer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.about-us-text h2 {font-size: 2.5em;}
+
+.about-us-text h3 { font-size: 1.25em;}
+
+}
+
+
+
+/*990px*/
+@media screen and (min-width: 61.875em) {
+  #home-banner {padding-top: 0;}
+  #about-banner {padding-top: 0;}
+
+  .container {padding: 0;}
+
+  #banner-text-con {
+    padding: 100px 0 0 30px;
+    height: 600px;
+    max-width: 50%;
+    margin:0;
+  }
+
+  .TRAA-partners {justify-content: space-between;}
+
+  .TRAA-partners p {font-size: 15px;}
+
+  /*contact*/
+  .map-container {margin: 0 0 0 100px;}
+}
+
+
+
+
+@media screen and (min-width: 64em) {
+  /*I put width to a logo because I can see the logo when I give it width value*/
+  #traaLogo {width: 150px; }
+
+  .body-container {padding: 0 100px;}
+
+  .homemain:last-child {margin-left:100px;}
+
+  .homemain-text h2 {font-size: 25px;}
+  .homemain-text h3 {font-size: 18px;}
+  .homemain-text p {font-size: 15px; line-height: 22px;}
+
+  #mainHeader {display:flex; padding:0 40px;}
+
+  #button {display: none;}
+
+  #burgerCon {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+  }
+
+  #mainNav {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    margin-left: auto;
+  }
+
+  #burgerMenu {
+    text-align: right;
+  }
+
+  #mainNav li {
+    border-bottom: none;
+    display: inline;
+    margin-left: 40px;
+  }
+
+  #mainNav li a {
+    display: inline;
+    text-decoration: none;
+    color: #424242;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #mainNav li a:hover {color: #9abd4b;}
+
+
+
+  #logoCon {order: -1;}
+
+  #traaLogo {max-width: 140px;}
+
+  .more-about-img:last-child {margin-left: 100px;}
+
+  .project:last-child {margin-left: 100px;}
+  .project-text {border-bottom: 1px solid #424242; height: 270px;}
+
+  .readmorebutton {margin-top: 25px;}
+
+  .archives:last-child {margin-left: 100px;}
+  .archives-text h2 {height: 60px; border-bottom: 1px solid #424242;}
+
+}
+
+
+
+@media screen and (min-width: 75em) {
+  #mainHeader {padding: 0 100px;}
+}

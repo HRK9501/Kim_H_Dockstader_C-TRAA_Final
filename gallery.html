@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>TRAA - Gallery</title>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css" >
+  </head>
+
+
+  <body>
+    <h1 class="hidden">TRAA - Gallery page</h1>
+    <div class="header-container">
+      <header id="mainHeader">
+
+            <nav id="mainNav">
+                <h2 class="hidden">Main Navigation</h2>
+                <button id="button"></button>
+
+                <div id="burgerCon">
+                    <ul id="burgerMenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Event</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- main logo -->
+            <div id="logoCon">
+                <img src="images/traa_logo.svg" alt="TRAA logo" id="traaLogo">
+            </div>
+
+      </header>
+    </div>
+
+
+
+    <div id="gallery-banner">
+        <section class="container">
+          <div id="banner-text-con">
+              <div class="banner-text">
+                  <h2>Gallery</h2>
+                  <h3>Enjoy the Thames river more vividly</h3>
+                  <p> Watch the video to learn more about the Thames. And look at the practical goodies.</p>
+              </div>
+          </div>
+        </section>
+    </div>
+
+
+    <!--body event-->
+    <div class="body-container">
+
+        <section class="videoMainCon">
+                <h2>Multimedia</h2>
+                <h3>Thames River Video</h3>
+            <div class="video-content">
+                <video controls> <source src="video/traaVideo.mp4" type="video/mp4">
+                    Sorry, your browser doesn't support embedded videos.
+                </video>
+            </div>
+        </section>
+
+
+
+
+        <div class="goodsText">
+                <h2>Goods Gallery</h2>
+                <h3>Visit the TRAA website to see souvenirs and goodies to enjoy the river more interestingly.</h3>
+        </div>
+
+        <div class="mainCon">
+            <section id="imageContainer">
+                <div id="goodsImages" style="right: 0;">
+                    <img src="images/sample1.png" alt="sp1">
+                    <img src="images/sample2.png" alt="sp2">
+                    <img src="images/sample3.png" alt="sp3">
+                    <img src="images/sample4.png" alt="sp4">
+                </div>
+            </section>
+
+            <nav id="bottomNav">
+                <ul id="navList">
+                    <li><div class="imgContainer sp1" data-offset="0"></div></li>
+                    <li><div class="imgContainer sp2" data-offset="1"></div></li>
+                    <li><div class="imgContainer sp3" data-offset="2"></div></li>
+                    <li><div class="imgContainer sp4" data-offset="3"></div></li>
+                </ul>
+            </nav>
+
+            <h1 id="goodsTitle">Click the Button!</h1>
+
+            <p class="goods-info"></p>
+        </div>
+
+
+        
+ 
+
+    </div>
+
+
+
+
+
+   <!--main footer-->
+   <div class="footer-container">
+    <footer class="footer">
+        <div class="footer-left">
+            <div class="footer-img">
+                    <a href="index.html"><img src="images/traa_logo.svg" alt="traa footer Logo" class="footerlogo"></a>
+            </div>
+            <div class="footer-text">
+                    <p class="footer-traa">THAMES RIVER ANGLERS ASOCIATION</p>
+                    <p class="footer-address">2202 Coronation Drive, London, Ontario, N6G 0B9</p>
+                    <p class="copyright">copyright TRAA. All Reights Reserved.</p>
+            </div>
+        </div>
+
+
+        <div class="footer-right">
+            <a href="contact.html"><img src="images/footer-email.png" alt="footer social-email" class="mailimg"></a>
+            <a href="https://www.facebook.com/groups/4TRAA/about/"><img src="images/footer-facebook.png" alt="footer social-email" class="facebookimg"></a>
+        </div>
+    </footer>
+</div>
+
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
